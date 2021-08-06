@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		1872D37526B97EC700920990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D37426B97EC700920990 /* AppDelegate.swift */; };
 		1872D37726B97EC700920990 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D37626B97EC700920990 /* SceneDelegate.swift */; };
-		1872D37926B97EC700920990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D37826B97EC700920990 /* ViewController.swift */; };
 		1872D37C26B97EC700920990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872D37A26B97EC700920990 /* Main.storyboard */; };
 		1872D37E26B97ECA00920990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872D37D26B97ECA00920990 /* Assets.xcassets */; };
 		1872D38126B97ECA00920990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872D37F26B97ECA00920990 /* LaunchScreen.storyboard */; };
 		1872D38C26B97ECA00920990 /* NBA3on3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D38B26B97ECA00920990 /* NBA3on3Tests.swift */; };
 		1872D39626B97ECA00920990 /* NBA3on3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D39526B97ECA00920990 /* NBA3on3UITests.swift */; };
+		1872D3A326B98AE000920990 /* nba3on3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D3A226B98AE000920990 /* nba3on3ViewController.swift */; };
+		1872D3DF26BCDF9D00920990 /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D3DE26BCDF9D00920990 /* SharpImageView.swift */; };
+		1872D3E126BCE5D500920990 /* SharpImageview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D3E026BCE5D500920990 /* SharpImageview2.swift */; };
+		1872D3E726BD667E00920990 /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1872D3E626BD667E00920990 /* jf-openhuninn-1.1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		1872D37126B97EC700920990 /* NBA3on3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA3on3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1872D37426B97EC700920990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1872D37626B97EC700920990 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1872D37826B97EC700920990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1872D37B26B97EC700920990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1872D37D26B97ECA00920990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1872D38026B97ECA00920990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		1872D38B26B97ECA00920990 /* NBA3on3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA3on3Tests.swift; sourceTree = "<group>"; };
 		1872D39126B97ECA00920990 /* NBA3on3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBA3on3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1872D39526B97ECA00920990 /* NBA3on3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA3on3UITests.swift; sourceTree = "<group>"; };
+		1872D3A226B98AE000920990 /* nba3on3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nba3on3ViewController.swift; sourceTree = "<group>"; };
+		1872D3DE26BCDF9D00920990 /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		1872D3E026BCE5D500920990 /* SharpImageview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageview2.swift; sourceTree = "<group>"; };
+		1872D3E626BD667E00920990 /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,13 @@
 		1872D37326B97EC700920990 /* NBA3on3 */ = {
 			isa = PBXGroup;
 			children = (
+				1872D3E626BD667E00920990 /* jf-openhuninn-1.1.ttf */,
 				1872D37426B97EC700920990 /* AppDelegate.swift */,
 				1872D37626B97EC700920990 /* SceneDelegate.swift */,
-				1872D37826B97EC700920990 /* ViewController.swift */,
 				1872D37A26B97EC700920990 /* Main.storyboard */,
+				1872D3DE26BCDF9D00920990 /* SharpImageView.swift */,
+				1872D3E026BCE5D500920990 /* SharpImageview2.swift */,
+				1872D3A226B98AE000920990 /* nba3on3ViewController.swift */,
 				1872D37D26B97ECA00920990 /* Assets.xcassets */,
 				1872D37F26B97ECA00920990 /* LaunchScreen.storyboard */,
 				1872D38226B97ECA00920990 /* Info.plist */,
@@ -229,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1872D38126B97ECA00920990 /* LaunchScreen.storyboard in Resources */,
+				1872D3E726BD667E00920990 /* jf-openhuninn-1.1.ttf in Resources */,
 				1872D37E26B97ECA00920990 /* Assets.xcassets in Resources */,
 				1872D37C26B97EC700920990 /* Main.storyboard in Resources */,
 			);
@@ -255,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1872D37926B97EC700920990 /* ViewController.swift in Sources */,
 				1872D37526B97EC700920990 /* AppDelegate.swift in Sources */,
 				1872D37726B97EC700920990 /* SceneDelegate.swift in Sources */,
+				1872D3A326B98AE000920990 /* nba3on3ViewController.swift in Sources */,
+				1872D3E126BCE5D500920990 /* SharpImageview2.swift in Sources */,
+				1872D3DF26BCDF9D00920990 /* SharpImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +450,9 @@
 				DEVELOPMENT_TEAM = RP8B4F6XKA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NBA3on3/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = NBA3on3;
+				INFOPLIST_KEY_CFBundleName = NBA3on3;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -466,6 +481,9 @@
 				DEVELOPMENT_TEAM = RP8B4F6XKA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NBA3on3/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = NBA3on3;
+				INFOPLIST_KEY_CFBundleName = NBA3on3;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
