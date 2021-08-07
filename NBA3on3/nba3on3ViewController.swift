@@ -23,6 +23,9 @@ class nba3on3ViewController: UIViewController {
     @IBOutlet weak var jobtenure: UILabel!
     
     @IBOutlet weak var jobTenureSliderOutlet: UISlider!
+    
+    @IBOutlet weak var teamStartDatePicker: UIDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         playerOneView.transform = CGAffineTransform(rotationAngle: -.pi / 45)
@@ -118,10 +121,16 @@ class nba3on3ViewController: UIViewController {
                 playerTwoView.image = UIImage(named: playertwo)
         }
         jobTenureSliderOutlet.isHidden = false
-        
-   
     }
-  
-}
+        var slider = 1
+    @IBAction func taamStartYearslisder(_ sender: Any) {
+        
+        slider = Int(jobTenureSliderOutlet.value)
+        jobtenure.text = String(slider)
+    }
+    
+    }
+    
+
 
 

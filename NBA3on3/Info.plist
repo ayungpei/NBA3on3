@@ -9,6 +9,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>jf-openhuninn-1.1.ttf</string>
+		<string>cwTeXYen-zhonly.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

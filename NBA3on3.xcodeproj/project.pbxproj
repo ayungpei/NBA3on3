@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1869D9B926BDAB4F00B767F0 /* cwTeXYen-zhonly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1869D9B826BDAB4F00B767F0 /* cwTeXYen-zhonly.ttf */; };
 		1872D37526B97EC700920990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D37426B97EC700920990 /* AppDelegate.swift */; };
 		1872D37726B97EC700920990 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D37626B97EC700920990 /* SceneDelegate.swift */; };
 		1872D37C26B97EC700920990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872D37A26B97EC700920990 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1869D9B826BDAB4F00B767F0 /* cwTeXYen-zhonly.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cwTeXYen-zhonly.ttf"; sourceTree = "<group>"; };
 		1872D37126B97EC700920990 /* NBA3on3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA3on3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1872D37426B97EC700920990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1872D37626B97EC700920990 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		1872D37326B97EC700920990 /* NBA3on3 */ = {
 			isa = PBXGroup;
 			children = (
+				1869D9B826BDAB4F00B767F0 /* cwTeXYen-zhonly.ttf */,
 				1872D3E626BD667E00920990 /* jf-openhuninn-1.1.ttf */,
 				1872D37426B97EC700920990 /* AppDelegate.swift */,
 				1872D37626B97EC700920990 /* SceneDelegate.swift */,
@@ -241,6 +244,7 @@
 				1872D3E726BD667E00920990 /* jf-openhuninn-1.1.ttf in Resources */,
 				1872D37E26B97ECA00920990 /* Assets.xcassets in Resources */,
 				1872D37C26B97EC700920990 /* Main.storyboard in Resources */,
+				1869D9B926BDAB4F00B767F0 /* cwTeXYen-zhonly.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
